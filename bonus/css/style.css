@@ -17,6 +17,16 @@ body{
 a:hover{
     color: #7c84db;
 }
+
+.waves-img{
+    filter:opacity(3.1%);
+    transform: none;
+}
+
+.waves-img-rotate{
+    filter:opacity(3.1%);
+    transform: rotate(180deg);
+}
 /* REGOLE GENERALI */
 
 /* intestazione */
