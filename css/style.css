@@ -18,6 +18,7 @@ header{
     min-height: 570px;
     background-color: #404eed;
     color: white;
+    color: white;
 }
 
 #header-img{
@@ -40,7 +41,7 @@ header{
     text-align: left;
 }
 
-.header-menu{
+.header-header-menu{
     width: 60%;
     text-align: center;
 }
@@ -67,6 +68,16 @@ header{
 }
 
 /* TESTO HEADER */
+.login-bg{
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
 .login-bg{
     height: 35px;
     width: 90px;
@@ -118,6 +129,7 @@ p{
     border-radius: 20px;
     padding-top: 10px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 /* TESTO HEADER */
 
