@@ -11,12 +11,19 @@
 body{
     font-size: 20px;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 /* intestazione */
 header{
     min-height: 570px;
     background-color: #404eed;
+}
+
+#header-img{
+    background-image: url(../img/jumbo.png);
+    width: 100%;
+    height: 1000px;
 }
 
 .topbar{
@@ -31,18 +38,25 @@ header{
     width: 20%;
     text-align: left;
 }
+
 .menu{
     width: 60%;
     text-align: center;
 }
 
 .login{
+    margin-left: 10%;
     width: 20%;
-    text-align: right;
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    vertical-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .topbar > div {
-    background-color: yellow;
     padding: 10px;
 }
 
@@ -51,13 +65,54 @@ header{
     height: 500px;
     padding: 30px;
     justify-content: center;
+    text-align: center;
 }
 
 .header-main > div{
     height: 100%;
     width: 50%;
-    background-color: yellow;
 }
+
+/* TESTO HEADER */
+a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 70px;
+    padding: 50px;
+}
+
+p{
+    font-size: 23px;
+}
+
+.download-mac{
+    margin: 50px 50px;
+    height: 50px;
+    width: 200px;
+    color: rgb(2, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.open-browser{
+    margin: 50px 50px;
+    height: 50px;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+/* TESTO HEADER */
+
 /* fine intestazione */
 
 /* main */
