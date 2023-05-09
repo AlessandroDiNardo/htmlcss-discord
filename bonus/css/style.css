@@ -18,15 +18,6 @@ a:hover{
     color: #7c84db;
 }
 
-.waves-img{
-    filter:opacity(3.1%);
-    transform: none;
-}
-
-.waves-img-rotate{
-    filter:opacity(3.1%);
-    transform: rotate(180deg);
-}
 /* REGOLE GENERALI */
 
 /* intestazione */
@@ -38,10 +29,11 @@ header{
 }
 
 #header-img{
-    height: 600px;
+    height: 700px;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .topbar{
@@ -187,6 +179,16 @@ main section:last-child{
     background-size: contain;
 }
 
+.waves-img{
+    filter:opacity(3.1%);
+    position: relative;
+    top:5px;
+}
+
+.waves-img-rotate{
+    filter:opacity(3.1%);
+    transform: rotate(180deg);
+}
 /* MAIN TEXT */
 h2{
     color: black;
